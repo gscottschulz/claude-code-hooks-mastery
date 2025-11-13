@@ -114,5 +114,5 @@ extras/
 
 # Claude Code data
 .claude/data/
-.claude/logs/
+.claude/logs/*
 !.claude/logs/README.md
