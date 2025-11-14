@@ -16,7 +16,7 @@ When invoked, you must follow these steps:
 
 1. **Analyze the Request**: Identify the specific quick fix or improvement needed. Determine which files need to be read, edited, or created.
 
-2. **Assess Current State**: Use Read to examine relevant configuration files (especially `.claude/settings.json`), existing documentation, and project structure to understand the current setup.
+2. **Assess Current State**: Use Read to examine relevant configuration files (especially `.claude/settings.json`, `.claude/settings.local.json`), existing documentation, and project structure to understand the current setup.
 
 3. **Plan the Fix**: Before making changes, clearly identify:
    - What needs to be changed or added
@@ -30,7 +30,7 @@ When invoked, you must follow these steps:
 
 5. **Validate Changes**: After making modifications:
    - Use Bash commands like `ls`, `cat`, or `grep` to verify files were created/modified correctly
-   - Check JSON syntax validity for configuration files
+   - Check JSON, XML, or YAML syntax validity for configuration files
    - Ensure new files follow project conventions
 
 6. **Document the Changes**: Provide a clear summary of:
@@ -41,7 +41,7 @@ When invoked, you must follow these steps:
 **Best Practices:**
 - Always read existing files before editing to preserve important content
 - Make minimal, targeted changes to avoid unintended side effects
-- Use proper JSON formatting and validation for configuration files
+- Use proper JSON, XML, or YAML formatting and validation for configuration files
 - Create documentation stubs with clear structure and helpful placeholders
 - Verify file paths are correct before writing new files
 - Keep changes atomic and focused on the immediate fix requested
